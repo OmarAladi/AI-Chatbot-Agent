@@ -1,0 +1,250 @@
+[
+  {
+    "id": "01_company_overview_p01",
+    "title": "Company Overview",
+    "category": "company",
+    "source_file": "01_company_overview.md",
+    "paragraph_index": 1,
+    "text": "COB Solution supports medical providers and healthcare practices by helping reduce administrative burden and improve day-to-day workflows. The goal is to help practices stay focused on patient care while still running efficient operations and sustaining growth."
+  },
+  {
+    "id": "01_company_overview_p02",
+    "title": "Company Overview",
+    "category": "company",
+    "source_file": "01_company_overview.md",
+    "paragraph_index": 2,
+    "text": "Services are typically tailored to each practice’s needs. During onboarding, the team aligns on scope (what is included vs. not included), which locations are covered, and what outcomes and reporting cadence are expected."
+  },
+  {
+    "id": "01_company_overview_p03",
+    "title": "Company Overview",
+    "category": "company",
+    "source_file": "01_company_overview.md",
+    "paragraph_index": 3,
+    "text": "COB Solution is headquartered in New York, NY. For general inquiries, you can contact the team through the following channels. \nEmail: info@cobsolution.com  \nPhone: (929) 229-7207"
+  },
+  {
+    "id": "02_appointments_patient_engagement_p01",
+    "title": "Appointments & Patient Engagement",
+    "category": "operations",
+    "source_file": "02_appointments_patient_engagement.md",
+    "paragraph_index": 1,
+    "text": "Appointment support focuses on keeping schedules organized and making the booking experience simple for patients. Typical support includes scheduling, confirmations, follow-ups, and rescheduling requests, using the practice’s rules for hours, services, and required information."
+  },
+  {
+    "id": "02_appointments_patient_engagement_p02",
+    "title": "Appointments & Patient Engagement",
+    "category": "operations",
+    "source_file": "02_appointments_patient_engagement.md",
+    "paragraph_index": 2,
+    "text": "Patient engagement includes outreach that helps practices stay connected with patients who missed appointments or have not returned for follow-up. Re-engagement efforts aim to reduce missed opportunities and help patients get back on track with care."
+  },
+  {
+    "id": "02_appointments_patient_engagement_p03",
+    "title": "Appointments & Patient Engagement",
+    "category": "operations",
+    "source_file": "02_appointments_patient_engagement.md",
+    "paragraph_index": 3,
+    "text": "Feedback collection can be used to improve patient experience. After visits, practices may request feedback or reviews following internal policy and applicable privacy/compliance requirements."
+  },
+  {
+    "id": "02_appointments_patient_engagement_p04",
+    "title": "Appointments & Patient Engagement",
+    "category": "operations",
+    "source_file": "02_appointments_patient_engagement.md",
+    "paragraph_index": 4,
+    "text": "Text and email can be used for reminders, follow-ups, and campaigns as allowed by policy. Messages should avoid sensitive medical details when sent through unsecured channels, and escalation should be used when the request is urgent, complex, or requires account-specific verification."
+  },
+  {
+    "id": "03_rcm_billing_denials_p01",
+    "title": "Revenue Cycle, Billing & Denials",
+    "category": "rcm",
+    "source_file": "03_rcm_billing_denials.md",
+    "paragraph_index": 1,
+    "text": "Revenue Cycle Management (RCM) describes the workflow from eligibility and claim submission to payment posting and follow-up. Strong RCM practices help improve cash flow, reduce write-offs, and create a clearer picture of what is billed, what is paid, and what still needs attention."
+  },
+  {
+    "id": "03_rcm_billing_denials_p02",
+    "title": "Revenue Cycle, Billing & Denials",
+    "category": "rcm",
+    "source_file": "03_rcm_billing_denials.md",
+    "paragraph_index": 2,
+    "text": "Denial management is the process of identifying why claims were denied, correcting issues, resubmitting when appropriate, and reducing repeat denials by addressing root causes. Common denial drivers include missing or incorrect information, eligibility problems, coding issues, authorization requirements, timely filing limits, and payer-specific policy rules."
+  },
+  {
+    "id": "03_rcm_billing_denials_p03",
+    "title": "Revenue Cycle, Billing & Denials",
+    "category": "rcm",
+    "source_file": "03_rcm_billing_denials.md",
+    "paragraph_index": 3,
+    "text": "Operational support in this area often emphasizes visibility and tracking. When practices can see claim status distributions and common delay points, they can prioritize work that improves collections and reduces long reimbursement cycles."
+  },
+  {
+    "id": "03_rcm_billing_denials_p04",
+    "title": "Revenue Cycle, Billing & Denials",
+    "category": "rcm",
+    "source_file": "03_rcm_billing_denials.md",
+    "paragraph_index": 4,
+    "text": "Credentialing-related workflows may be discussed depending on scope. If credentialing is part of the support plan, the focus is typically on maintaining accurate records and reducing administrative friction that can impact reimbursement."
+  },
+  {
+    "id": "04_reporting_transparency_p01",
+    "title": "Reporting & Transparency",
+    "category": "reporting",
+    "source_file": "04_reporting_transparency.md",
+    "paragraph_index": 1,
+    "text": "Operational transparency means practices can understand what is happening, what progress has been made, and what outcomes are being measured. Reporting is most useful when it is consistent, easy to interpret, and tied to the goals agreed during onboarding."
+  },
+  {
+    "id": "04_reporting_transparency_p02",
+    "title": "Reporting & Transparency",
+    "category": "reporting",
+    "source_file": "04_reporting_transparency.md",
+    "paragraph_index": 2,
+    "text": "Common operational metrics include appointment volume, no-show rate, reschedule rate, outreach response rate, claim status breakdowns, denial rate trends, and collection performance indicators. Tracking these metrics helps identify bottlenecks such as high no-show windows, repeated denial reasons, or slow follow-up cycles."
+  },
+  {
+    "id": "04_reporting_transparency_p03",
+    "title": "Reporting & Transparency",
+    "category": "reporting",
+    "source_file": "04_reporting_transparency.md",
+    "paragraph_index": 3,
+    "text": "Clear scope and clear communication reduce surprises. If something is outside the agreed scope, it should be flagged early and handled through an escalation path or a scope update. Transparency works best when updates are regular and action-oriented."
+  },
+  {
+    "id": "05_records_demographics_updates_p01",
+    "title": "Records, Demographics & Updates",
+    "category": "compliance",
+    "source_file": "05_records_demographics_updates.md",
+    "paragraph_index": 1,
+    "text": "Accurate patient demographics and insurance information reduce rework and help prevent avoidable claim delays or denials. Even small data issues—like a misspelled name, outdated policy number, or incorrect plan details—can create downstream billing and administrative problems."
+  },
+  {
+    "id": "05_records_demographics_updates_p02",
+    "title": "Records, Demographics & Updates",
+    "category": "compliance",
+    "source_file": "05_records_demographics_updates.md",
+    "paragraph_index": 2,
+    "text": "Provider and location records matter because payer systems often rely on correct provider and site details for routing and reimbursement. When a practice changes a location, adds a provider, or updates participation details, records should be updated consistently to reduce operational risk."
+  },
+  {
+    "id": "05_records_demographics_updates_p03",
+    "title": "Records, Demographics & Updates",
+    "category": "compliance",
+    "source_file": "05_records_demographics_updates.md",
+    "paragraph_index": 3,
+    "text": "Privacy-aware handling is essential when communicating with patients. A safe default is to collect only the minimum information required to complete the request and to avoid sharing sensitive clinical details in chat or unsecured channels. For sensitive or account-specific issues, escalation to a human agent is recommended."
+  },
+  {
+    "id": "06_text_email_campaigns_reviews_p01",
+    "title": "Text/Email Campaigns & Reviews",
+    "category": "marketing_ops",
+    "source_file": "06_text_email_campaigns_reviews.md",
+    "paragraph_index": 1,
+    "text": "Patient outreach campaigns are structured communications sent through channels such as text or email. These campaigns can be used for appointment reminders, follow-ups after missed visits, reactivation outreach, education reminders, and review requests—based on the practice’s policy and consent/compliance requirements."
+  },
+  {
+    "id": "06_text_email_campaigns_reviews_p02",
+    "title": "Text/Email Campaigns & Reviews",
+    "category": "marketing_ops",
+    "source_file": "06_text_email_campaigns_reviews.md",
+    "paragraph_index": 2,
+    "text": "Well-run campaigns can improve attendance and retention by making next steps clear and easy. They also reduce manual effort for staff by standardizing common messages and tracking responses."
+  },
+  {
+    "id": "06_text_email_campaigns_reviews_p03",
+    "title": "Text/Email Campaigns & Reviews",
+    "category": "marketing_ops",
+    "source_file": "06_text_email_campaigns_reviews.md",
+    "paragraph_index": 3,
+    "text": "Review requests are typically sent after a visit or a positive interaction. If negative feedback is received, it should be acknowledged and routed to a human agent so the practice can respond appropriately and resolve the issue."
+  },
+  {
+    "id": "06_text_email_campaigns_reviews_p04",
+    "title": "Text/Email Campaigns & Reviews",
+    "category": "marketing_ops",
+    "source_file": "06_text_email_campaigns_reviews.md",
+    "paragraph_index": 4,
+    "text": "As a general safety guideline, messages should avoid sensitive medical details unless secure channels are used and internal policies explicitly allow it. When in doubt, keep messages neutral and escalate for sensitive cases."
+  },
+  {
+    "id": "07_booking_services_policies_p01",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 1,
+    "text": "This booking catalog is designed for the hiring-task demo so the chatbot can schedule multiple types of appointments. Each service has a duration and a clear purpose. The chatbot should collect a name, a contact method, the service type, and a preferred date/time window before offering available slots."
+  },
+  {
+    "id": "07_booking_services_policies_p02",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 2,
+    "text": "Service A: Practice Growth Consultation (30 minutes). This session focuses on understanding operational bottlenecks and outlining a short improvement plan based on the practice’s priorities."
+  },
+  {
+    "id": "07_booking_services_policies_p03",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 3,
+    "text": "Service B: RCM / Billing & Denials Review (45 minutes). This session focuses on reviewing claim workflow pain points and suggesting next steps to improve collections and reduce denial volume."
+  },
+  {
+    "id": "07_booking_services_policies_p04",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 4,
+    "text": "Service C: Patient Engagement & No-Show Reduction Plan (30 minutes). This session focuses on building a reminders and follow-up playbook designed to reduce missed appointments and strengthen patient communication."
+  },
+  {
+    "id": "07_booking_services_policies_p05",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 5,
+    "text": "Service D: Onboarding / Implementation Call (60 minutes). This session kicks off a project, confirms scope, identifies access needs, and agrees on a reporting cadence."
+  },
+  {
+    "id": "07_booking_services_policies_p06",
+    "title": "Booking Services & Policies (Demo)",
+    "category": "booking",
+    "source_file": "07_booking_services_policies.md",
+    "paragraph_index": 6,
+    "text": "Booking rules for the demo are simple: rescheduling and cancellations are allowed up to 24 hours before the appointment time, and if a caller is more than 10 minutes late, the appointment may be shortened or rescheduled. Before confirming a booking, the chatbot should summarize the selected service and time and ask the user to confirm."
+  },
+  {
+    "id": "08_escalation_support_p01",
+    "title": "Escalation & Support (Chatbot Policy)",
+    "category": "escalation",
+    "source_file": "08_escalation_support.md",
+    "paragraph_index": 1,
+    "text": "Escalation is used when the request is urgent, sensitive, requires verification, or when the chatbot cannot confidently provide a correct answer. Escalation is also appropriate when the user explicitly asks to speak with a person or when repeated misunderstandings occur."
+  },
+  {
+    "id": "08_escalation_support_p02",
+    "title": "Escalation & Support (Chatbot Policy)",
+    "category": "escalation",
+    "source_file": "08_escalation_support.md",
+    "paragraph_index": 2,
+    "text": "When escalating, the chatbot should collect a short summary, a preferred contact method (phone/email), and the best time to reach the user. The chatbot should then confirm that a human agent will follow up."
+  },
+  {
+    "id": "08_escalation_support_p03",
+    "title": "Escalation & Support (Chatbot Policy)",
+    "category": "escalation",
+    "source_file": "08_escalation_support.md",
+    "paragraph_index": 3,
+    "text": "If the chatbot does not have enough information to answer, it should ask a clarifying question. If clarity cannot be achieved quickly, the chatbot should escalate rather than guessing. This improves reliability and user experience."
+  },
+  {
+    "id": "08_escalation_support_p04",
+    "title": "Escalation & Support (Chatbot Policy)",
+    "category": "escalation",
+    "source_file": "08_escalation_support.md",
+    "paragraph_index": 4,
+    "text": "Suggested handoff message: “I want to make sure this is handled correctly. I’ll transfer this to our support team. Please share your phone/email and a short summary, and we’ll follow up.”"
+  }
+]

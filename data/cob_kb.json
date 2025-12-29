@@ -1,0 +1,632 @@
+[
+  {
+    "id": "cob_kb_en_p01",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 1,
+    "lang": "en",
+    "text": "COB Solution is a healthcare consulting and services provider that supports medical practices with efficient operations and optimized workflows. The focus is to reduce administrative burden so providers can prioritize patient care while improving operational performance and growth."
+  },
+  {
+    "id": "cob_kb_en_p02",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 2,
+    "lang": "en",
+    "text": "COB Solution is headquartered in New York, NY. A listed address is 575 8th Ave, New York, NY 10018, United States."
+  },
+  {
+    "id": "cob_kb_en_p03",
+    "title": "COB Solution Knowledge Base",
+    "category": "contact",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 3,
+    "lang": "en",
+    "text": "For general inquiries, COB Solution can be reached by email at info@cobsolution.com or by phone at (929) 229-7207."
+  },
+  {
+    "id": "cob_kb_en_p04",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 4,
+    "lang": "en",
+    "text": "COB Solution describes its approach as results-driven and emphasizes measurable performance for medical businesses. Public messaging includes the phrase “Results first. Payment later,” indicating a performance-first positioning depending on the agreement."
+  },
+  {
+    "id": "cob_kb_en_p05",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_appointments",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 5,
+    "lang": "en",
+    "text": "Appointment scheduling support can include booking appointments, organizing schedules, and maintaining an efficient scheduling workflow. This type of support aims to keep the practice fully booked and reduce scheduling friction."
+  },
+  {
+    "id": "cob_kb_en_p06",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_appointments",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 6,
+    "lang": "en",
+    "text": "Patient communication during scheduling can include handling back-and-forth requests, answering basic scheduling questions, and coordinating rescheduling. Clear communication and structured scheduling workflows help reduce confusion for both patients and staff."
+  },
+  {
+    "id": "cob_kb_en_p07",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_patient_engagement",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 7,
+    "lang": "en",
+    "text": "Patient engagement support can include reconnecting with lost or inactive patients and conducting follow-ups. Re-engagement outreach is intended to improve loyalty and encourage patients to return for care."
+  },
+  {
+    "id": "cob_kb_en_p08",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_patient_feedback",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 8,
+    "lang": "en",
+    "text": "Feedback collection can be used to learn what patients experience and where operational improvements are needed. In some workflows, feedback is collected after visits and escalated internally when issues require a human response."
+  },
+  {
+    "id": "cob_kb_en_p09",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_customer_care",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 9,
+    "lang": "en",
+    "text": "Customer care services can include handling patient inquiries through phone, email, or live chat and documenting interactions. Complex issues that require verification or special handling should be escalated to the relevant department or a human agent."
+  },
+  {
+    "id": "cob_kb_en_p10",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_rcm",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 10,
+    "lang": "en",
+    "text": "Revenue Cycle Management (RCM) services relate to how a practice gets paid, including billing workflows and denial management. Denial management focuses on reducing delayed payments by identifying denial causes, correcting issues, and improving processes to prevent repeat denials."
+  },
+  {
+    "id": "cob_kb_en_p11",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_authorizations",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 11,
+    "lang": "en",
+    "text": "Authorization and coverage checking can include benefits and eligibility verification and prior authorization tracking. Doing these checks upfront can reduce surprises, lower back-and-forth, and help claims move forward more smoothly."
+  },
+  {
+    "id": "cob_kb_en_p12",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_authorizations",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 12,
+    "lang": "en",
+    "text": "Benefits verification can help clarify co-pay and coverage rules before a visit. Upfront clarity can support accurate patient cost estimates and smoother collections at the front desk."
+  },
+  {
+    "id": "cob_kb_en_p13",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_credentialing",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 13,
+    "lang": "en",
+    "text": "Credentialing and provider maintenance can include keeping provider records current and aligned with payer requirements. Accurate provider information can reduce operational risk and limit reimbursement friction."
+  },
+  {
+    "id": "cob_kb_en_p14",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_demographics",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 14,
+    "lang": "en",
+    "text": "Demographic updates can include maintaining key patient demographics and keeping insurance and provider records accurate. Accurate records help protect the practice from compliance risks and reduce downstream billing issues."
+  },
+  {
+    "id": "cob_kb_en_p15",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_locations",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 15,
+    "lang": "en",
+    "text": "Location updates can matter when a practice changes sites or updates operational details that payers rely on. Keeping location records current can reduce administrative issues that affect claims and reimbursements."
+  },
+  {
+    "id": "cob_kb_en_p16",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_reporting",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 16,
+    "lang": "en",
+    "text": "Operational transparency means the practice can see what is happening in claims, payments, and operations and understand why. Public messaging emphasizes transparency, clear reporting, and avoiding hidden costs or surprises."
+  },
+  {
+    "id": "cob_kb_en_p17",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_reporting",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 17,
+    "lang": "en",
+    "text": "Reporting can support faster decisions by highlighting patterns such as common denial reasons, delayed reimbursement cycles, or operational bottlenecks. Useful reporting is typically clear, consistent, and aligned with the goals agreed during onboarding."
+  },
+  {
+    "id": "cob_kb_en_p18",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_marketing_campaigns",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 18,
+    "lang": "en",
+    "text": "Text and email campaigns can be used for reminders, updates, and review requests. Campaign management can improve follow-ups and patient engagement while reducing staff workload when messages are standardized."
+  },
+  {
+    "id": "cob_kb_en_p19",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_marketing_campaigns",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 19,
+    "lang": "en",
+    "text": "Messaging should follow applicable compliance and privacy rules. A safe practice is to avoid sensitive clinical details in unsecured channels and keep outreach content neutral unless secure workflows are used."
+  },
+  {
+    "id": "cob_kb_en_p20",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_auditing",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 20,
+    "lang": "en",
+    "text": "Auditing support can include reviewing SOAP documentation accuracy and verifying ICD-10 and CPT coding practices. Improving documentation and coding quality can reduce denials and support faster reimbursement."
+  },
+  {
+    "id": "cob_kb_en_p21",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_operations",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 21,
+    "lang": "en",
+    "text": "COB Solution positions its services as customized and adjustable to each practice’s needs. Public posts encourage scheduling a meeting to define what support is needed and how success will be measured."
+  },
+  {
+    "id": "cob_kb_en_p22",
+    "title": "COB Solution Knowledge Base",
+    "category": "onboarding",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 22,
+    "lang": "en",
+    "text": "A typical onboarding conversation clarifies the practice’s goals, service scope, and key constraints such as hours, locations, and communication preferences. Clear scope definition helps avoid misunderstandings and improves delivery consistency."
+  },
+  {
+    "id": "cob_kb_en_p23",
+    "title": "COB Solution Knowledge Base",
+    "category": "onboarding",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 23,
+    "lang": "en",
+    "text": "To get started, a practice can prepare basic information such as practice name, contact person, services of interest (scheduling, RCM, authorizations, marketing), and preferred meeting times. This helps the team route the request correctly."
+  },
+  {
+    "id": "cob_kb_en_p24",
+    "title": "COB Solution Knowledge Base",
+    "category": "demo_notice",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 24,
+    "lang": "en",
+    "text": "Demo note for the hiring task: the chatbot can treat appointment booking as scheduling a service call with COB Solution, even if the real business process differs. The booking data and available time slots can be mocked in a database to demonstrate read/write actions safely."
+  },
+  {
+    "id": "cob_kb_en_p25",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 25,
+    "lang": "en",
+    "text": "Demo booking service: Practice Growth Consultation (30 minutes). This session focuses on operational bottlenecks and a short improvement plan for workflow and efficiency."
+  },
+  {
+    "id": "cob_kb_en_p26",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 26,
+    "lang": "en",
+    "text": "Demo booking service: RCM / Billing & Denials Review (45 minutes). This session focuses on billing workflow pain points, denial reduction, and steps to improve collections and reimbursement speed."
+  },
+  {
+    "id": "cob_kb_en_p27",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 27,
+    "lang": "en",
+    "text": "Demo booking service: Benefits Verification & Authorization Setup (30 minutes). This session focuses on eligibility verification workflows, authorization tracking, and reducing payer-related back-and-forth."
+  },
+  {
+    "id": "cob_kb_en_p28",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 28,
+    "lang": "en",
+    "text": "Demo booking service: Patient Engagement & Campaign Planning (30 minutes). This session focuses on reminders, follow-ups, reactivation outreach, and review request workflows."
+  },
+  {
+    "id": "cob_kb_en_p29",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_policies_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 29,
+    "lang": "en",
+    "text": "Demo booking policy: to schedule, the chatbot should collect the customer name, a contact method (phone or email), the service type, and a preferred date/time range. The chatbot should then show available slots and ask the user to confirm before booking."
+  },
+  {
+    "id": "cob_kb_en_p30",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_policies_demo",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 30,
+    "lang": "en",
+    "text": "Demo booking policy: rescheduling and cancellations are allowed up to 24 hours before the appointment time. If a caller is more than 10 minutes late, the appointment may be shortened or rescheduled."
+  },
+  {
+    "id": "cob_kb_en_p31",
+    "title": "COB Solution Knowledge Base",
+    "category": "escalation_policy",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 31,
+    "lang": "en",
+    "text": "Escalation to a human agent is appropriate when the user requests a person, the issue is urgent or sensitive, or the chatbot cannot confidently answer from the knowledge base. Escalation is also appropriate after repeated misunderstandings."
+  },
+  {
+    "id": "cob_kb_en_p32",
+    "title": "COB Solution Knowledge Base",
+    "category": "escalation_policy",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 32,
+    "lang": "en",
+    "text": "When escalating, the chatbot should collect a short summary of the issue, the preferred contact method (phone/email), and the best time to follow up. The chatbot should confirm that a human agent will reach out."
+  },
+  {
+    "id": "cob_kb_en_p33",
+    "title": "COB Solution Knowledge Base",
+    "category": "limits_policy",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 33,
+    "lang": "en",
+    "text": "If the chatbot cannot find an answer in the provided knowledge base, it should say it does not have enough information rather than guessing. The chatbot may ask one clarifying question; if uncertainty remains, it should escalate."
+  },
+  {
+    "id": "cob_kb_en_p34",
+    "title": "COB Solution Knowledge Base",
+    "category": "privacy_policy",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 34,
+    "lang": "en",
+    "text": "Privacy-first guidance: collect only the minimum information needed to schedule or route the request. Avoid requesting or sharing sensitive clinical details in chat; use escalation for account-specific or sensitive issues."
+  },
+  {
+    "id": "cob_kb_en_p35",
+    "title": "COB Solution Knowledge Base",
+    "category": "keywords_help",
+    "source_file": "COB_KB_EN.md",
+    "paragraph_index": 35,
+    "lang": "en",
+    "text": "Keywords that may appear in user questions include: scheduling, appointments, no-shows, patient outreach, RCM, billing, denial management, reimbursements, benefits verification, eligibility, prior authorization, credentialing, provider maintenance, demographics updates, campaigns, reviews, reporting, transparency, and compliance."
+  },
+  {
+    "id": "cob_kb_ar_p01",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 1,
+    "lang": "ar",
+    "text": "شركة COB Solution هي جهة استشارات وخدمات في مجال الرعاية الصحية، وتساعد العيادات والمراكز الطبية على تحسين التشغيل وتطوير سير العمل وتقليل العبء الإداري. الهدف هو تمكين مقدمي الخدمة من التركيز على رعاية المرضى مع رفع كفاءة الأداء والنمو."
+  },
+  {
+    "id": "cob_kb_ar_p02",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 2,
+    "lang": "ar",
+    "text": "المقر الرئيسي لشركة COB Solution في نيويورك (New York, NY). كما يظهر عنوان مُدرج: 575 8th Ave, New York, NY 10018، الولايات المتحدة."
+  },
+  {
+    "id": "cob_kb_ar_p03",
+    "title": "COB Solution Knowledge Base",
+    "category": "contact",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 3,
+    "lang": "ar",
+    "text": "للاستفسارات العامة يمكن التواصل مع COB Solution عبر البريد الإلكتروني info@cobsolution.com أو الهاتف (929) 229-7207."
+  },
+  {
+    "id": "cob_kb_ar_p04",
+    "title": "COB Solution Knowledge Base",
+    "category": "company_overview",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 4,
+    "lang": "ar",
+    "text": "تؤكد COB Solution في رسائلها العامة على منهج قائم على النتائج وقياس الأداء. كما يظهر تعبير “Results first. Payment later” بما يشير إلى توجه يركز على تحقيق نتائج ملموسة وفقًا لطبيعة الاتفاق."
+  },
+  {
+    "id": "cob_kb_ar_p05",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_appointments",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 5,
+    "lang": "ar",
+    "text": "دعم جدولة المواعيد قد يشمل حجز المواعيد وتنظيم الجداول والحفاظ على سير عمل منظم وفعال. الهدف هو تقليل الاحتكاك في عملية الحجز وزيادة امتلاء جدول العيادة."
+  },
+  {
+    "id": "cob_kb_ar_p06",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_appointments",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 6,
+    "lang": "ar",
+    "text": "التواصل مع المرضى أثناء الجدولة قد يشمل إدارة الطلبات المتبادلة، والإجابة عن أسئلة الجدولة الأساسية، والتنسيق لإعادة الجدولة. التنظيم والوضوح يقللان من الالتباس لدى المرضى والفريق."
+  },
+  {
+    "id": "cob_kb_ar_p07",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_patient_engagement",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 7,
+    "lang": "ar",
+    "text": "دعم تفاعل المرضى قد يشمل إعادة التواصل مع المرضى المنقطعين أو غير النشطين والمتابعة معهم. هذا النوع من التواصل يهدف إلى رفع الولاء وتشجيع المرضى على العودة للرعاية."
+  },
+  {
+    "id": "cob_kb_ar_p08",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_patient_feedback",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 8,
+    "lang": "ar",
+    "text": "جمع ملاحظات المرضى يساعد على فهم تجربة المريض وتحديد نقاط التحسين التشغيلي. وفي بعض النماذج يتم جمع الملاحظات بعد الزيارة ثم تصعيد الحالات التي تتطلب تدخلًا بشريًا."
+  },
+  {
+    "id": "cob_kb_ar_p09",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_customer_care",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 9,
+    "lang": "ar",
+    "text": "خدمات رعاية العملاء قد تشمل التعامل مع استفسارات المرضى عبر الهاتف أو البريد الإلكتروني أو الدردشة وتوثيق التفاعلات. القضايا المعقدة التي تتطلب تحققًا أو معالجة خاصة ينبغي تصعيدها إلى القسم المختص أو وكيل بشري."
+  },
+  {
+    "id": "cob_kb_ar_p10",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_rcm",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 10,
+    "lang": "ar",
+    "text": "خدمات إدارة دورة الإيرادات (RCM) ترتبط بكيفية تحصيل العيادة لمستحقاتها، بما في ذلك الفوترة وإدارة الرفض (Denials). إدارة الرفض تركز على تقليل تأخر المدفوعات عبر فهم أسباب الرفض وتصحيحها وتحسين العمليات لمنع تكرارها."
+  },
+  {
+    "id": "cob_kb_ar_p11",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_authorizations",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 11,
+    "lang": "ar",
+    "text": "التحقق من التغطية والتفويضات قد يشمل التحقق من الأهلية والمزايا (Benefits & Eligibility) وتتبع التفويض المسبق (Prior Authorization). إجراء هذه الخطوات مبكرًا يقلل المفاجآت ويخفض المراسلات المتكررة ويساعد المطالبات على التحرك بسلاسة."
+  },
+  {
+    "id": "cob_kb_ar_p12",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_authorizations",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 12,
+    "lang": "ar",
+    "text": "التحقق من المزايا يساعد على توضيح قواعد المشاركة (co-pay) والتغطية قبل الزيارة. وضوح التكاليف مبكرًا يدعم تقديرات أدق وتجربة أفضل عند الاستقبال."
+  },
+  {
+    "id": "cob_kb_ar_p13",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_credentialing",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 13,
+    "lang": "ar",
+    "text": "الاعتماد والتحديثات الخاصة بمقدمي الخدمة (Credentialing & Provider Maintenance) قد تشمل الحفاظ على بيانات مقدم الخدمة محدثة ومتوافقة مع متطلبات الجهات الدافعة. دقة البيانات تقلل المخاطر التشغيلية وتخفف الاحتكاك في السداد."
+  },
+  {
+    "id": "cob_kb_ar_p14",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_demographics",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 14,
+    "lang": "ar",
+    "text": "تحديث الديموغرافيا قد يشمل الحفاظ على بيانات المرضى الأساسية وتحديث سجلات التأمين ومقدم الخدمة. دقة السجلات تساعد على تقليل مخاطر الامتثال وتخفيف مشكلات الفوترة لاحقًا."
+  },
+  {
+    "id": "cob_kb_ar_p15",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_locations",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 15,
+    "lang": "ar",
+    "text": "تحديث بيانات المواقع مهم عند تغيير الفروع أو تحديث تفاصيل تشغيلية تعتمد عليها الجهات الدافعة. تحديث بيانات الموقع يقلل المشكلات الإدارية التي قد تؤثر على المطالبات والسداد."
+  },
+  {
+    "id": "cob_kb_ar_p16",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_reporting",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 16,
+    "lang": "ar",
+    "text": "الشفافية التشغيلية تعني قدرة العيادة على رؤية ما يحدث في المطالبات والمدفوعات والعمليات وفهم السبب. وتبرز الرسائل العامة التركيز على شفافية التقارير وتجنب التكاليف الخفية أو المفاجآت."
+  },
+  {
+    "id": "cob_kb_ar_p17",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_reporting",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 17,
+    "lang": "ar",
+    "text": "التقارير تدعم اتخاذ قرارات أسرع عبر إظهار الأنماط مثل أسباب الرفض الشائعة أو تأخر السداد أو الاختناقات التشغيلية. التقارير الأكثر فاعلية تكون واضحة ومنتظمة ومرتبطة بأهداف تم الاتفاق عليها عند بدء العمل."
+  },
+  {
+    "id": "cob_kb_ar_p18",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_marketing_campaigns",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 18,
+    "lang": "ar",
+    "text": "حملات الرسائل النصية والبريد الإلكتروني يمكن استخدامها للتذكير والتحديثات وطلبات التقييم (Reviews). إدارة الحملات قد تحسن المتابعة وتفاعل المرضى مع تقليل عبء الفريق عبر توحيد الرسائل."
+  },
+  {
+    "id": "cob_kb_ar_p19",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_marketing_campaigns",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 19,
+    "lang": "ar",
+    "text": "ينبغي أن تتبع الرسائل قواعد الخصوصية والامتثال. كقاعدة آمنة، تجنب التفاصيل الطبية الحساسة في القنوات غير الآمنة، واستخدم التصعيد في الحالات الحساسة."
+  },
+  {
+    "id": "cob_kb_ar_p20",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_auditing",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 20,
+    "lang": "ar",
+    "text": "الدعم في التدقيق قد يشمل مراجعة دقة توثيق SOAP والتحقق من ترميز ICD-10 وCPT. تحسين جودة التوثيق والترميز قد يقلل الرفض ويساعد على تسريع السداد."
+  },
+  {
+    "id": "cob_kb_ar_p21",
+    "title": "COB Solution Knowledge Base",
+    "category": "services_operations",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 21,
+    "lang": "ar",
+    "text": "تقدم COB Solution خدمات قابلة للتخصيص وفقًا لاحتياجات كل عيادة. كما تشجع منشورات عامة على ترتيب اجتماع لتحديد نوع الدعم المطلوب وكيفية قياس النجاح."
+  },
+  {
+    "id": "cob_kb_ar_p22",
+    "title": "COB Solution Knowledge Base",
+    "category": "onboarding",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 22,
+    "lang": "ar",
+    "text": "في جلسة البدء يتم عادة توضيح الأهداف ونطاق الخدمة والقيود الأساسية مثل ساعات العمل والمواقع وتفضيلات التواصل. وضوح النطاق يقلل سوء الفهم ويحسن ثبات التنفيذ."
+  },
+  {
+    "id": "cob_kb_ar_p23",
+    "title": "COB Solution Knowledge Base",
+    "category": "onboarding",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 23,
+    "lang": "ar",
+    "text": "للبدء، من المفيد تجهيز معلومات أساسية مثل اسم العيادة، جهة التواصل، الخدمات المطلوبة (الجدولة، RCM، التفويضات، التسويق)، وأوقات مناسبة للاجتماع. هذا يساعد على توجيه الطلب بسرعة."
+  },
+  {
+    "id": "cob_kb_ar_p24",
+    "title": "COB Solution Knowledge Base",
+    "category": "demo_notice",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 24,
+    "lang": "ar",
+    "text": "ملاحظة للديمو الخاص بالتاسك: يمكن اعتبار “الحجز” على أنه حجز جلسة خدمة مع COB Solution، حتى لو كانت الإجراءات الحقيقية مختلفة. كما يمكن عمل قاعدة بيانات تجريبية للمواعيد لإظهار القراءة/الكتابة بشكل آمن."
+  },
+  {
+    "id": "cob_kb_ar_p25",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 25,
+    "lang": "ar",
+    "text": "خدمة حجز تجريبية: استشارة نمو العيادة (30 دقيقة). تركز على فهم اختناقات التشغيل ووضع خطة تحسين قصيرة لسير العمل والكفاءة."
+  },
+  {
+    "id": "cob_kb_ar_p26",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 26,
+    "lang": "ar",
+    "text": "خدمة حجز تجريبية: مراجعة الفوترة وإدارة الرفض (45 دقيقة). تركز على نقاط الألم في الفوترة وتقليل الرفض وخطوات تحسين التحصيل وتسريع السداد."
+  },
+  {
+    "id": "cob_kb_ar_p27",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 27,
+    "lang": "ar",
+    "text": "خدمة حجز تجريبية: إعداد التحقق من المزايا والتفويضات (30 دقيقة). تركز على سير عمل التحقق من الأهلية وتتبع التفويض المسبق وتقليل المراسلات مع الجهات الدافعة."
+  },
+  {
+    "id": "cob_kb_ar_p28",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_services_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 28,
+    "lang": "ar",
+    "text": "خدمة حجز تجريبية: خطة تفاعل المرضى والحملات (30 دقيقة). تركز على التذكيرات والمتابعة وإعادة تنشيط المرضى وطلبات التقييم."
+  },
+  {
+    "id": "cob_kb_ar_p29",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_policies_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 29,
+    "lang": "ar",
+    "text": "سياسة حجز تجريبية: لإتمام الحجز، يجمع البوت اسم العميل وطريقة تواصل (هاتف أو بريد) ونوع الخدمة ونطاق وقت/تاريخ مفضل. ثم يعرض المواعيد المتاحة ويطلب تأكيدًا قبل الحجز."
+  },
+  {
+    "id": "cob_kb_ar_p30",
+    "title": "COB Solution Knowledge Base",
+    "category": "booking_policies_demo",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 30,
+    "lang": "ar",
+    "text": "سياسة حجز تجريبية: يسمح بالإلغاء أو إعادة الجدولة حتى 24 ساعة قبل الموعد. وإذا تأخر العميل أكثر من 10 دقائق فقد يتم تقصير الجلسة أو إعادة جدولتها."
+  },
+  {
+    "id": "cob_kb_ar_p31",
+    "title": "COB Solution Knowledge Base",
+    "category": "escalation_policy",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 31,
+    "lang": "ar",
+    "text": "تصعيد الطلب لوكيل بشري مناسب عندما يطلب المستخدم التحدث مع شخص، أو عندما تكون الحالة عاجلة/حساسة، أو عندما لا يستطيع البوت الإجابة بثقة من قاعدة المعرفة. كما يفضّل التصعيد عند تكرار سوء الفهم."
+  },
+  {
+    "id": "cob_kb_ar_p32",
+    "title": "COB Solution Knowledge Base",
+    "category": "escalation_policy",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 32,
+    "lang": "ar",
+    "text": "عند التصعيد، يجمع البوت ملخصًا قصيرًا للمشكلة وطريقة تواصل مفضلة (هاتف/بريد) وأفضل وقت للمتابعة. ثم يؤكد أن فريقًا بشريًا سيتواصل لاحقًا."
+  },
+  {
+    "id": "cob_kb_ar_p33",
+    "title": "COB Solution Knowledge Base",
+    "category": "limits_policy",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 33,
+    "lang": "ar",
+    "text": "إذا لم يجد البوت إجابة في قاعدة المعرفة المتاحة، يجب أن يصرّح بأنه لا يملك معلومات كافية بدل التخمين. يمكنه طرح سؤال توضيحي واحد؛ وإذا استمر الغموض يقوم بالتصعيد."
+  },
+  {
+    "id": "cob_kb_ar_p34",
+    "title": "COB Solution Knowledge Base",
+    "category": "privacy_policy",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 34,
+    "lang": "ar",
+    "text": "إرشاد الخصوصية: اجمع أقل قدر من البيانات اللازمة لإتمام الحجز أو توجيه الطلب. تجنب طلب أو مشاركة تفاصيل طبية حساسة عبر الدردشة، واستخدم التصعيد للطلبات الحساسة أو المرتبطة بالحساب."
+  },
+  {
+    "id": "cob_kb_ar_p35",
+    "title": "COB Solution Knowledge Base",
+    "category": "keywords_help",
+    "source_file": "COB_KB_AR.md",
+    "paragraph_index": 35,
+    "lang": "ar",
+    "text": "كلمات مفتاحية قد تظهر في أسئلة المستخدم: جدولة، مواعيد، عدم الحضور (no-shows)، تواصل المرضى، RCM، فوترة، إدارة الرفض، تعويضات، تحقق المزايا، أهلية، تفويض مسبق، اعتماد، تحديث بيانات مقدم الخدمة، تحديث الديموغرافيا، حملات، تقييمات، تقارير، شفافية، امتثال."
+  }
+]
