@@ -36,9 +36,9 @@ LangGraph routes a message to one of these flows:
 3. **booking_llm_node** ↔ **tools** loop (bounded) → confirm booking
 4. **handoff_node** → returns decision + message; UI locks if required
 
-### Suggested diagram (add an image here)
+### Suggested diagram
 
-![Architecture](images/COB Agent.png)
+![Architecture](images/COB_Agent.png)
 
 ---
 
@@ -120,7 +120,7 @@ COB_MAX_TOOL_STEPS=4
 
 > **Security note:** never commit your `.env` file.
 
-### 5) Prepare data (KB + DB)
+### 5) Prepare data (KB + DB), If you need to use your data
 
 #### A) Knowledge Base (RAG)
 
@@ -278,7 +278,7 @@ What you’ll see:
 * Add **multi-service booking policies** (duration, buffers, blackout dates)
 * Add **RAG citations** (return chunk titles/ids to UI)
 
----
+<!-- ---
 
 ## Screenshots (recommended)
 
@@ -304,4 +304,4 @@ Then include them here:
 
 ## License
 
-Internal / demo use. Add a license if you plan to distribute.
+Internal / demo use. Add a license if you plan to distribute. -->
