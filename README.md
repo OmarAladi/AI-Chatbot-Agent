@@ -153,7 +153,7 @@ Create a `.env` file in the project root:
 # Required - Your Google API Key
 GOOGLE_API_KEY=your_google_api_key_here
 
-# Optional - Separate keys for different models
+# Required - Separate keys for different models
 ROUTER_API_KEY=your_router_model_key_here
 RAG_API_KEY=your_rag_model_key_here
 BOOKING_API_KEY=your_booking_model_key_here
