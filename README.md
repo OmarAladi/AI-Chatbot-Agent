@@ -1,136 +1,225 @@
-# COB Demo Agent (FastAPI + LangGraph + Streamlit)
+<div align="center">
 
-A production-style demo chatbot built with **FastAPI** (backend), **LangGraph** (agent orchestration), and **Streamlit** (chat UI).
+# 🤖 AI Chatbot Agent
 
-It supports **routing** between:
+### Intelligent Multi-Route Conversational Agent
 
-* **General chat** (direct answer)
-* **Knowledge Base (RAG)** (retrieval + grounded answer)
-* **Booking flow** (tool-using agent backed by SQLite)
-* **Handoff** (flags when a human should take over)
+[![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge&logo=chainlink&logoColor=white)](https://github.com/langchain-ai/langgraph)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 
----
+*A production-ready chatbot with intelligent routing, RAG-powered knowledge base, booking system, and human handoff capabilities.*
 
-## What you get
-
-### ✅ Key features
-
-* **LangGraph multi-node agent** with clear, debuggable execution flow.
-* **RAG (Chroma + Gemini Embeddings)** for answering from a JSON knowledge base.
-* **Booking tools (SQLite)** for listing/checking/booking appointments.
-* **Handoff safety**: when `handoff_required=true`, the UI locks and shows a red flag.
-* **Strong logging (SRE-ready)**: node-level trace logs + errors in `logs/app.log`.
-* **FastAPI + Pydantic** request/response validation.
-* **Streamlit UI**: wide, dark, ChatGPT-like chat interface.
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📖 Documentation](#-documentation)
 
 ---
 
-## Architecture (high level)
+</div>
 
-**User → Streamlit → FastAPI → LangGraph**
+## ✨ Features
 
-LangGraph routes a message to one of these flows:
+<table>
+<tr>
+<td width="50%">
 
-1. **router_node** → chooses route: `general | kb | booking | handoff`
-2. **rag_node** → retrieve KB chunks → generate grounded answer
-3. **booking_llm_node** ↔ **tools** loop (bounded) → confirm booking
-4. **handoff_node** → returns decision + message; UI locks if required
+### 🎯 Smart Routing
+Automatically routes conversations to the right handler:
+- **General Chat** - Direct AI responses
+- **Knowledge Base (RAG)** - Grounded answers from your docs
+- **Booking System** - Appointment management
+- **Human Handoff** - Escalation when needed
 
-### Suggested diagram
+</td>
+<td width="50%">
+
+### 🔍 RAG-Powered Knowledge Base
+- ChromaDB vector storage
+- Google Gemini embeddings
+- JSON-based knowledge management
+- Grounded, accurate responses
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📅 Booking System
+- SQLite-backed appointments
+- Check availability
+- Book & manage appointments
+- Tool-using agent architecture
+
+</td>
+<td width="50%">
+
+### 🛡️ Production Ready
+- Comprehensive logging (SRE-ready)
+- Pydantic request validation
+- Error classification & handling
+- Clean, debuggable execution flow
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ Architecture
+
+```
+┌──────────────┐     ┌──────────────┐     ┌──────────────────────────────────┐
+│   Streamlit  │────▶│   FastAPI    │────▶│          LangGraph Agent         │
+│   Chat UI    │     │   Backend    │     │                                  │
+└──────────────┘     └──────────────┘     │  ┌─────────┐    ┌────────────┐  │
+                                          │  │ Router  │───▶│  General   │  │
+                                          │  │  Node   │    │   Chat     │  │
+                                          │  │         │───▶│  RAG/KB    │  │
+                                          │  │         │───▶│  Booking   │  │
+                                          │  │         │───▶│  Handoff   │  │
+                                          │  └─────────┘    └────────────┘  │
+                                          └──────────────────────────────────┘
+```
+
+<details>
+<summary>📊 View Detailed Architecture Diagram</summary>
 
 ![Architecture](images/COB_Agent.png)
 
----
-
-## Requirements
-
-* Python **3.10+**
-* A **Gemini / Google GenAI API key**
+</details>
 
 ---
 
-## Setup & Run (using `uv`)
+## 🚀 Quick Start
 
-> These steps are intentionally explicit so anyone can run the project quickly.
+### Prerequisites
 
-### 1) Clone / open the project folder
+| Requirement | Description |
+|------------|-------------|
+| **Python** | Version 3.13 or higher |
+| **uv** | Python package manager ([install guide](https://github.com/astral-sh/uv)) |
+| **API Key** | Google Gemini API key |
+
+### Step 1: Clone & Navigate
 
 ```bash
-cd AI_Chatbot_Agent
+git clone https://github.com/OmarAladi/AI-Chatbot-Agent.git
+cd AI-Chatbot-Agent
 ```
 
-### 2) Create and activate the environment (uv)
+### Step 2: Create Virtual Environment
 
 ```bash
 uv venv
 ```
 
-Activate:
+**Activate the environment:**
 
-* **Windows (PowerShell):**
+<details>
+<summary>🪟 Windows (PowerShell)</summary>
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
+</details>
 
-* **Windows (cmd):**
+<details>
+<summary>🪟 Windows (CMD)</summary>
 
-```bat
+```cmd
 .\.venv\Scripts\activate.bat
 ```
+</details>
 
-* **macOS/Linux:**
+<details>
+<summary>🐧 macOS / Linux</summary>
 
 ```bash
 source .venv/bin/activate
 ```
+</details>
 
-### 3) Install dependencies
+### Step 3: Install Dependencies
 
 ```bash
 uv sync
 ```
 
-### 4) Create `.env`
+### Step 4: Configure Environment Variables
 
-Create a file named `.env` in the project root (same folder as `main_api.py`).
-
-Add your API key:
+Create a `.env` file in the project root:
 
 ```env
-GOOGLE_API_KEY=YOUR_KEY_HERE
+# Required - Your Google API Key
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Optional - Separate keys for different models
 ROUTER_API_KEY=your_router_model_key_here
 RAG_API_KEY=your_rag_model_key_here
 BOOKING_API_KEY=your_booking_model_key_here
 HANDOFF_API_KEY=your_handoff_model_key_here
 ```
 
-Optional (paths & safety):
+<details>
+<summary>⚙️ Advanced Configuration (Optional)</summary>
 
 ```env
+# Paths
 COB_LOGS_DIR=./logs
 COB_DATA_DIR=./data
 COB_DB_PATH=./data/appointments.db
 COB_KB_JSON_PATH=./data/cob_kb.json
 COB_PERSIST_DIR=./data/chroma_langchain_db
 
+# Safety Limits
 COB_MAX_RETRIES=1
 COB_MAX_TOOL_STEPS=4
 ```
+</details>
 
-> **Security note:** never commit your `.env` file.
+> ⚠️ **Security:** Never commit your `.env` file to version control!
 
-### 5) Prepare data (KB + DB), If you need to use your data
+### Step 5: Run the Application
 
-#### A) Knowledge Base (RAG)
+You need **two terminals** - one for the backend and one for the frontend.
 
-Place your KB JSON at:
-
+**Terminal 1 - Start Backend (FastAPI):**
+```bash
+uvicorn main_api:app --reload
 ```
-./data/cob_kb.json
+
+**Terminal 2 - Start Frontend (Streamlit):**
+```bash
+streamlit run streamlit_chat.py
 ```
 
-Expected format (example):
+### 🎉 You're Ready!
+
+| Service | URL |
+|---------|-----|
+| **Chat UI** | http://localhost:8501 |
+| **API Health** | http://127.0.0.1:8000/health |
+| **API Docs** | http://127.0.0.1:8000/docs |
+
+---
+
+## 📖 Documentation
+
+### API Usage
+
+**Chat Endpoint:**
+```bash
+curl -X POST http://127.0.0.1:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message": "I want to book a haircut on 2025-12-30 at 10:00", "thread_id": "123456"}'
+```
+
+### Data Configuration
+
+<details>
+<summary>📚 Knowledge Base (RAG) Setup</summary>
+
+Place your knowledge base at `./data/cob_kb.json`:
 
 ```json
 [
@@ -145,163 +234,65 @@ Expected format (example):
   }
 ]
 ```
+</details>
 
-#### B) Booking DB (SQLite)
+<details>
+<summary>📅 Booking Database Setup</summary>
 
-Place your SQLite DB at:
+SQLite database at `./data/appointments.db` with an `appointments` table:
 
-```
-./data/appointments.db
-```
+| Column | Type | Description |
+|--------|------|-------------|
+| `service` | TEXT | Service name |
+| `date` | TEXT | Date (YYYY-MM-DD) |
+| `time` | TEXT | Time (HH:MM) |
+| `status` | TEXT | free / booked |
+| `customer_name` | TEXT | Customer name |
+| `phone` | TEXT | Phone number |
+| `created_at` | TEXT | Timestamp |
 
-The tools expect a table named `appointments` with columns similar to:
+</details>
 
-* `service` (TEXT)
-* `date` (TEXT, YYYY-MM-DD)
-* `time` (TEXT, HH:MM)
-* `status` (TEXT: free|booked)
-* `customer_name` (TEXT)
-* `phone` (TEXT)
-* `created_at` (TEXT)
+### Logging
 
-> If you don’t have a DB yet, create one using a small seed script (recommended future improvement).
-
----
-
-## Run the backend (FastAPI)
-
-From the project root:
-
-```bash
-uvicorn main_api:app --reload
-```
-
-Check:
-
-* Health: `GET http://127.0.0.1:8000/health`
-* Chat: `POST http://127.0.0.1:8000/api/chat`
-
-### Example request
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{"message":"I want to book a haircut on 2025-12-30 at 10:00","thread_id":"123456"}'
-```
+All logs are written to `./logs/app.log`:
+- Node entry/exit events
+- Tool call traces
+- Error classifications (quota limits, timeouts, etc.)
 
 ---
 
-## Run the frontend (Streamlit)
+## 🔧 Troubleshooting
 
-In a new terminal (same venv):
-
-```bash
-streamlit run streamlit_chat.py
-```
-
-The UI will:
-
-* Generate a **random 6-digit `thread_id`** once per session
-* Send `thread_id + user message` to the backend
-* Show only `reply`
-* If `handoff_required=true`, it will show a **red flag** and lock the chat
-
-### Optional: change backend URL
-
-```bash
-export COB_BACKEND_CHAT_URL=http://127.0.0.1:8000/api/chat
-```
-
-On Windows (PowerShell):
-
-```powershell
-$env:COB_BACKEND_CHAT_URL = "http://127.0.0.1:8000/api/chat"
-```
+| Issue | Solution |
+|-------|----------|
+| **Missing API Key** | Ensure `.env` exists with `GOOGLE_API_KEY` |
+| **Empty RAG Results** | Check `COB_KB_JSON_PATH` points to valid JSON |
+| **Booking DB Not Found** | Verify `COB_DB_PATH` and `appointments` table exist |
 
 ---
 
-## Logging & Debugging
+## 🗺️ Roadmap
 
-Logs are written to:
-
-```
-./logs/app.log
-```
-
-What you’ll see:
-
-* `[node_enter]` / `[node_exit]` for each node
-* tool calls loop steps (bounded)
-* classified upstream errors (quota/rate limits, timeouts, etc.)
-
-### Common issues
-
-**1) Missing API key**
-
-* Ensure `.env` is in the project root
-* Ensure the variable name is exactly: `GOOGLE_API_KEY`
-
-**2) Empty KB / no RAG results**
-
-* Confirm `COB_KB_JSON_PATH` points to a real file
-
-**3) Booking tools can’t find DB/table**
-
-* Confirm `COB_DB_PATH` points to an existing SQLite DB
-* Confirm the `appointments` table exists
+- [ ] Seed scripts for DB and KB initialization
+- [ ] Request ID correlation in logs
+- [ ] Prometheus metrics (latency, error rate)
+- [ ] Redis/Postgres persistence (replace InMemorySaver)
+- [ ] API authentication & rate limiting
+- [ ] Admin dashboard for handoff tickets
+- [ ] Multi-service booking policies
+- [ ] RAG citations in UI
 
 ---
 
-## Roadmap (future work)
+## 📄 License
 
-### Near-term improvements
-
-* **Seed scripts**
-
-  * `scripts/seed_db.py` to create appointments DB
-  * `scripts/seed_kb.py` to validate KB JSON structure
-* **Observability upgrades**
-
-  * Add request IDs and correlate them through logs
-  * Prometheus metrics for latency, error rate, tool loop count
-* **Persistence**
-
-  * Replace `InMemorySaver` with a durable checkpointer (Redis/Postgres)
-* **Auth & rate limiting**
-
-  * API key auth for the backend endpoints
-  * rate limiting for public deployments
-
-### Product upgrades
-
-* Add an **admin dashboard** to review handoff tickets
-* Add **multi-service booking policies** (duration, buffers, blackout dates)
-* Add **RAG citations** (return chunk titles/ids to UI)
-
-<!-- ---
-
-## Screenshots (recommended)
-
-Create a folder:
-
-```
-docs/images/
-```
-
-Add these images:
-
-* `docs/images/architecture.png` → architecture diagram
-* `docs/images/streamlit_ui.png` → Streamlit chat screenshot
-* `docs/images/logs_sample.png` → sample `logs/app.log` snippet
-
-Then include them here:
-
-![Streamlit UI](docs/images/streamlit_ui.png)
-
-![Logs](docs/images/logs_sample.png)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## License
+<div align="center">
 
-Internal / demo use. Add a license if you plan to distribute. -->
+**Built with ❤️ using LangGraph, FastAPI, and Streamlit**
+
+</div>
